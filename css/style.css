@@ -58,7 +58,7 @@ button img{
     display: flex;
 }
 
- .icon{
+.icon{
     background: none;
     width: 1vw;
     padding-right: 0.1vw;
@@ -87,14 +87,22 @@ nav{
     align-items: center;
 }
 
-.flex>div{
-    margin: 0.2vw 0 0.3vw 0.2vw;
-} 
-
 .nav-icon{
     width: 1.8vw;
+    margin: 0 1.3vw;
 }
 
 .up-arrow{
     width: 1.2vw;
+    margin-left: -1.1vw;
+}
+
+nav button{
+    color: red;
+    background-color: rgb(77, 76, 76);
+    border: none;
+    height: 8vh;
+    border-radius: 0%;
+    padding: 0 1.2vw;
+    margin: auto;
 }
