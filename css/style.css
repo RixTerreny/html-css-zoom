@@ -1,8 +1,12 @@
 *{
-    background-color: black;
     margin: 0;
     box-sizing: border-box;
     color: white;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: black;
 }
 
 header{
@@ -35,7 +39,7 @@ button img{
 .webcam-container{
     position: relative;
     width: 15vw;
-    height: 9vw;
+    height: 9.2vw;
     margin: 0.4vw;
 }
 
@@ -53,9 +57,44 @@ button img{
     font-size: 0.8vw;
     display: flex;
 }
+
  .icon{
     background: none;
     width: 1vw;
     padding-right: 0.1vw;
 
  }
+
+nav{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(45, 44, 44);
+    text-align: center;
+    font-size: 0.75vw;
+    height: 7vh;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.flex>div{
+    margin: 0.2vw 0 0.3vw 0.2vw;
+} 
+
+.nav-icon{
+    width: 1.8vw;
+}
+
+.up-arrow{
+    width: 1.2vw;
+}
